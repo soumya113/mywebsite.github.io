@@ -1,0 +1,220 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+
+}
+.logo{
+    margin-top: 5px;
+}
+
+.logo img{
+        height: 40px;
+        width: 51px;
+        border: 3px solid green;
+        border-radius: 10px;
+        /* margin: 3px; */
+        padding: 1px;
+        margin: 50px;
+       
+}
+.navbar {
+    height: 60px;
+    width: 100%;
+    /* border: 2px solid green; */
+    background:linear-gradient(rgb(185, 110, 25),rgb(209, 179, 81));
+    /* background: transparent; */
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .7s;
+}
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.navbar .item{
+    font-size: 25px;
+    font-weight: 550;
+    margin:10px 30px 10px 30px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    /* border: 2px solid red; */
+
+}
+.navbar .item a:hover{
+    color: rgb(100, 94, 94);
+}
+.navbar input[type=text]{
+    height: 30px;
+    /* width: 200px; */
+    padding: 0px 10px;
+    text-align: center;
+    /* background: none; */
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+}
+.item a{
+    text-decoration: none;
+    color: white;
+}
+.navbar button{
+    padding: 3px;
+    width: 68px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.item-1{
+   margin-left: 50px;
+}
+.navbar .item:hover{
+    /* background-color: rgb(94, 177, 26); */
+    color: rgb(65, 60, 60);
+    cursor: pointer;
+}
+.background-img{
+    background-image: url('./img/backgroundimage-1.jpg');
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+
+}
+.burger{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display:none;
+
+}
+.line{
+  height: 5px;
+  width: 25px;
+  margin: 3px 3px;
+  background-color:white ;
+  
+}
+
+#top{
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+#top h1{
+   font-size: 40px;
+   padding: 20px;
+   color: white;
+}
+#top p{
+    color: white;
+    font-size: 25px;
+    margin: 20px;
+}
+#middle{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(rgb(176, 179, 43),rgb(202, 140, 24),rgb(86, 92, 172));
+
+    
+}
+
+.box{
+    /* padding: 50px; */
+    /* margin: 0px; */
+    /* height: 450px; */
+    width: 400px;
+    /* border:2px solid  green ; */
+    
+}
+
+.img{
+
+    /* background-image: url('marketing.webp')center center/cover; */
+    /* border: 2px solid yellow; */
+    height: 230px;
+}
+ .box img{
+    height: 230px;
+    width: 400px;
+    opacity: 1;
+}
+.box h2{
+    text-align: center;
+    margin: 8px;
+}
+.box p{
+    word-wrap: break-word;
+    
+}
+.box input[type=button]{
+    border-radius: 6px;
+    margin: 10px 0px;
+    padding: 5px ;
+    background-color: rgb(248, 83, 18);
+    box-shadow: 1px 2px;
+    /* border: 0; */
+    outline: none;
+}
+
+
+
+#buttom{
+    background-color: rgb(71, 2, 2);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+#buttom h3{
+    padding: 3px;
+}
+
+.contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./img/background-2.webp');
+    /* background-position: center;
+    background-size: cover; */
+    color: rgb(255, 255, 255);
+    
+    
+}
+.menu input[type=text],.menu input[type=number],.menu input[type=email]{
+    display: inline-block;
+    /* background: none; */
+    /* border: 0; */
+    /* color: white; */
+    outline: none;
+    width:500px ;
+    height: 25px;
+    margin: 8px;
+}
+.menu input[type=text]:hover,.menu input[type=number]:hover,.menu input[type=email]:hover,.menu input[type=submit]:hover{
+   cursor: pointer;
+
+    
+
+}
+.menu input[type=submit]{
+    margin: 3px 3px 10px 3px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(212, 108, 11);
+    color: white;
+    box-shadow: 2px 2px rgb(68, 65, 65);
+}
+.menu input[type=submit]:hover{
+    background-color: rgb(20, 220, 30);
+}
